@@ -33,7 +33,7 @@ def gini_impurity (value_counts):
     return gini
 
 class_value_counts = df1[class_name].value_counts()
-print(f'Number of samples in each class is:\n{class_value_counts}')
+print(f'Number of samples in each class is :\n{class_value_counts}')
 
 gini_class = gini_impurity(class_value_counts)
 print(f'\nGini Impurity of the class is {gini_class:.3f}')
