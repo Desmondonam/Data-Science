@@ -37,3 +37,7 @@ print(f'Number of samples in each class is :\n{class_value_counts}')
 
 gini_class = gini_impurity(class_value_counts)
 print(f'\nGini Impurity of the class is {gini_class:.3f}')
+
+
+
+
